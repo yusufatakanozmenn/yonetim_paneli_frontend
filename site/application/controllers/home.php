@@ -13,15 +13,12 @@ class Home extends CI_Controller {
        $viewData = new stdClass();
        $viewData->viewFolder ="product_list_v";
        $this -> load -> model("product_model");
-        $viewData->products = $this->product_model->get_all(
-              array(
-                    "durum" => 1
-              ),               
-         );
-
-
-         print_r($viewData->products);
-            die();
+       $this->load->helper("text");
+       $viewData->products = $this->product_model->get_all(
+             array(
+                   "durum" => 1
+             ),               
+        );
             
        $this->load->view($viewData->viewFolder, $viewData);
     }
