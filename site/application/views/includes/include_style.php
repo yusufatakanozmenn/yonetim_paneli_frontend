@@ -16,4 +16,4 @@
 <link href='https://fonts.googleapis.com/css?family=Suranna' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
 <!-- Font icons -->
-<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/><!-- Font awesome icons -->
+<link rel="stylesheet" href="<?php echo base_url("assets");?>/font-awesome/css/font-awesome.min.css"/><!-- Font awesome icons -->

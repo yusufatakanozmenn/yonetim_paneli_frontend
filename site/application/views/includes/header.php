@@ -25,24 +25,18 @@
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pi-nav">
                                 <li class="current-menu-item dropdown">
-                                    <a href="#">Home</a>
+                                    <a href="#">Kurumsal</a>
                                     <ul class="dropdown-menu">
-                                        <li class="current-menu-item"><a href="index.html">Home page</a></li>
-                                        <li><a href="elements.html">Template elements</a></li>
-                                        <li><a href="locations.html">Intro page</a></li>
+                                        <li class="current-menu-item"><a href="index.html">Hakkımızda</a></li>                                       
                                     </ul><!-- .dropdown-menu end -->
                                 </li>
 
-                                <li class="dropdown"><a href="about.html">About</a>
+                                <li class="dropdown"><a href="about.html">Ürünlerimiz</a>
                                     <ul class="dropdown-menu">
                                         <li class="dropdown dropdown-submenu">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Submenu
-                                                example</a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tüm Ürünler</a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="#">Submenu item 1</a></li>
-                                                <li><a href="#">Submenu item 2</a></li>
-                                                <li><a href="#">Submenu item 3</a></li>
-                                                <li><a href="#">Submenu item 4</a></li>
+                                                <li><a href="#">Ürün İsimleri Gelecek</a></li>                                               
                                             </ul>
                                         </li>
                                     </ul><!-- .dropdown-menu end -->
