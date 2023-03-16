@@ -19,8 +19,8 @@
                                 <div class="navbar-header">
                                     <!-- .logo start -->
                                     <div class="logo">
-                                        <a href="index.html">
-                                            <img src="<?php echo base_url("assets");?>/img/logo.png" alt="Royal Plate Restaurant & Catering HTML Template">
+                                        <a href="<?= base_url();?>">
+                                            <img src="<?= base_url("assets");?>/img/logo.png" alt="Royal Plate Restaurant & Catering HTML Template">
                                         </a>
                                     </div><!-- logo end -->
                                 </div><!-- .navbar-header end -->
@@ -29,7 +29,7 @@
                                 <div class="collapse navbar-collapse">
                                     <ul class="nav navbar-nav pi-nav">
                                         <li class="current-menu-item dropdown">
-                                            <a href="#">Home</a> 
+                                            <a href="<?= base_url();?>">Home</a> 
                                             <ul class="dropdown-menu">
                                                 <li class="current-menu-item"><a href="index.html">Home page</a></li>
                                                 <li><a href="elements.html">Template elements</a></li>
