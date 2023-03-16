@@ -36,7 +36,7 @@
                         </div>
                         <figcaption>
                             <div class="custom-heading style-1">
-                                <h4><?php echo character_limiter(strip_tags($product->adi),10);?></h4>
+                                <h4><?php echo substr($product->adi,10);?></h4>
                                 <!-- .divider.style-1 start -->
                                 <div class="divider style-1 center">
                                     <span class="hr-simple left"></span>
@@ -45,7 +45,7 @@
                                 </div>
                             </div><!-- .custom-heading.style-1 end -->
 
-                            <p><?php echo character_limiter(strip_tags($product->aciklama),20);?></p>
+                            <p><?php echo substr($product->aciklama,20);?></p>
                             <a href="#" class="more-details triggerAnimation animated" data-animate='fadeInUp'><span>Ürün Detay</span>
                                 <i class="fa fa-angle-double-right"></i></a>
                         </figcaption>
