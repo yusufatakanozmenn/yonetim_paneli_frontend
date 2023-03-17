@@ -87,7 +87,7 @@
 
                                         <ul class="dl-menu">
                                             <li>
-                                                <a href="">Home</a>
+                                                <a href="<?=base_url()?>">Home</a>
                                                 <ul class="dl-submenu">
                                                     <li><a href="index.html">Home page</a></li>
                                                     <li><a href="elements.html">Template elements</a></li>
@@ -107,7 +107,7 @@
                                             </li><!-- About li end -->
 
                                             <li>
-                                                <a href="">Menu</a>
+                                                <a href="<?=base_url("")?>">Menu</a>
                                                 <ul class="dl-submenu">
                                                     <li><a href="menu-01.html">Menu 1</a></li>
                                                     <li><a href="menu-02.html">Menu 2</a></li>
@@ -116,10 +116,10 @@
                                             </li><!-- Menu li end -->
 
                                             <li>
-                                                <a href="reservations.html">Reservations</a>
+                                                <a href="<?=base_url("reservations")?>">Reservations</a>
                                             </li><!-- Reservations li end -->
                                             <li>
-                                                <a href="">Catering</a>
+                                                <a href="<?=base_url("catering")?>">Catering</a>
                                                 <ul class="dl-submenu">
                                                     <li><a href="catering.html">Catering page</a></li>
                                                     <li><a href="catering-single-page.html">Catering single page</a></li>
@@ -130,7 +130,7 @@
                                             </li><!-- Gallery li end -->
 
                                             <li>
-                                                <a href="blog.html">Blog</a>
+                                                <a href="<?=base_url("blog")?>">Blog</a>
                                             </li><!-- Blog li end -->
 
                                             <li>
