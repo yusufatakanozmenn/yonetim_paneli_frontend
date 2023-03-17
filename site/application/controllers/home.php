@@ -38,4 +38,11 @@ class Home extends CI_Controller {
         $viewData->viewFolder=$this->viewFolder;
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
+
+    public function menu(){
+        $this->viewFolder = "menu_v";
+        $viewData = new stdClass();
+        $viewData->viewFolder=$this->viewFolder;
+        $this->load->view("{$viewData->viewFolder}/index",$viewData);
+    }
 }
