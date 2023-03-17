@@ -21,6 +21,11 @@ class Home extends CI_Controller {
         $viewData = new stdClass();
         $this->viewFolder = "blog_v";
         $this->load->model("blog_model");
+        $viewData->blogs = $this->blog_model->get_all(
+            array(
+                "durum" => 1               
+            ),  "sira ASC"
+        );
         $viewData->viewFolder=$this->viewFolder;
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
