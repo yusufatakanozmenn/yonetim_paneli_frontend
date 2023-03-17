@@ -24,6 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/yonetim_paneli_frontend/site/';
+$config['upload_path'] = 'http://localhost/yonetim_paneli/panel/uploads/';
 
 /*
 |--------------------------------------------------------------------------

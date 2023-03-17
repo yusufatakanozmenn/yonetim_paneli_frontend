@@ -21,6 +21,7 @@ class Home extends CI_Controller {
         $viewData = new stdClass();
         $this->viewFolder = "blog_v";
         $this->load->model("blog_model");
+        $viewData->upload_path = $this->config->item('upload_path');
         $viewData->blogs = $this->blog_model->get_all(
             array(
                 "durum" => 1               
