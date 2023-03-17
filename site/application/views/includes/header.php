@@ -61,7 +61,7 @@
                                         </li>
 
                                         <li>
-                                            <a href="reservations.html">Reservations</a>                                          
+                                            <a href="<?= base_url("reservations")?>">Reservations</a>                                          
                                         </li>
                                         <li class="dropdown">
                                             <a href="#">Catering</a> 
