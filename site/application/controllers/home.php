@@ -18,8 +18,9 @@ class Home extends CI_Controller {
     }
 
     public function blog() {
-        $this->viewFolder = "blog_v";
         $viewData = new stdClass();
+        $this->viewFolder = "blog_v";
+        $this->load->model("blog_model");
         $viewData->viewFolder=$this->viewFolder;
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
