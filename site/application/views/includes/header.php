@@ -74,7 +74,7 @@
                                             <a href="gallery.html">Gallery</a>                                          
                                         </li>
                                         <li>
-                                            <a href="blog.html">Blog</a>                                          
+                                            <a href="<?=base_url("blog")?>">Blog</a>                                          
                                         </li>
                                         <li>
                                             <a href="contact.html">Contact</a>                                          
