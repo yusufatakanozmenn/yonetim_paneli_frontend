@@ -116,7 +116,7 @@
                                             </li><!-- Menu li end -->
 
                                             <li>
-                                                <a href="reservations.html">Reservations</a>
+                                                <a href="reservations">Reservations</a>
                                             </li><!-- Reservations li end -->
                                             <li>
                                                 <a href="">Catering</a>
