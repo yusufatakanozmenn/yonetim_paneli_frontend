@@ -39,7 +39,7 @@
                         <?php 
 
                         $image=get_blog_cover_image($blog->id);
-                        $image = ($image) ? base_url("panel/uploads/blog_v/$image"):base_url("assets/img/blog/blog-1.jpg");
+                        $image = ($image) ? $upload_path."$viewFolder/$image":base_url("assets/img/blog/blog-1.jpg");
                         ?>
 
                         <a href="#"><img src="<?php echo $image;?>"
