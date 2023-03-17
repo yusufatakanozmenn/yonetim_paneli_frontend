@@ -27,6 +27,7 @@ class Home extends CI_Controller {
             ),  "sira ASC"
         );
         $viewData->viewFolder=$this->viewFolder;
+
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
 
