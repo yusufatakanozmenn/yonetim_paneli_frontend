@@ -27,6 +27,9 @@ class Home extends CI_Controller {
             ),  "sira ASC"
         );
         $viewData->viewFolder=$this->viewFolder;
+        echo get_blog_cover_image(9);
+        die();
+
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
 }
