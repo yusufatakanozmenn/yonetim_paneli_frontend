@@ -31,15 +31,12 @@
                                         <li class="current-menu-item dropdown">
                                             <a href="<?= base_url();?>">Home</a> 
                                             <ul class="dropdown-menu">
-                                                <li class="current-menu-item"><a href="index.html">Home page</a></li>
-                                                <li><a href="elements.html">Template elements</a></li>
-                                                <li><a href="locations.html">Intro page</a></li>
                                             </ul><!-- .dropdown-menu end -->
                                         </li>
 
-                                        <li class="dropdown"><a href="about.html">About</a>
+                                        <li class="dropdown"><a href="<?=base_url("about")?>">About</a>
                                             <ul class="dropdown-menu">
-                                                <li class="dropdown dropdown-submenu">
+                                                <!-- <li class="dropdown dropdown-submenu">
                                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Submenu example</a>
                                                     <ul class="dropdown-menu">
                                                         <li><a href="#">Submenu item 1</a></li>
@@ -47,17 +44,17 @@
                                                         <li><a href="#">Submenu item 3</a></li>
                                                         <li><a href="#">Submenu item 4</a></li>
                                                     </ul>
-                                                </li>
+                                                </li> -->
                                             </ul><!-- .dropdown-menu end -->
                                         </li>
 
                                         <li class="dropdown">
                                             <a href="#">Menu</a> 
-                                            <ul class="dropdown-menu">
+                                            <!-- <ul class="dropdown-menu">
                                                 <li><a href="menu-01.html">Menu 1</a></li>
                                                 <li><a href="menu-02.html">Menu 2</a></li>
                                                 <li><a href="menu-details.html">Menu details example</a></li>
-                                            </ul><!-- .dropdown-menu end -->
+                                            </ul>.dropdown-menu end -->
                                         </li>
 
                                         <li>
@@ -96,9 +93,9 @@
                                             </li><!-- Home li end -->
 
                                             <li>
-                                                <a href="">About</a>
+                                                <a href="<?=base_url("about")?>">About</a>
                                                 <ul class="dl-submenu">
-                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="<?=base_url("about")?>">About</a></li>
                                                     <li><a href="">Submenu item 1</a></li>
                                                     <li><a href="">Submenu item 2</a></li>
                                                     <li><a href="">Submenu item 3</a></li>
