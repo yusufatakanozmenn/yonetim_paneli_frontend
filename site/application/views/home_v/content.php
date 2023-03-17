@@ -52,13 +52,13 @@
 </div><!-- .master-slider end -->
 
 <!-- .page-content start -->
-<div class="page-content custom-img-background bkg-img1" style="background-image: url(https://picsum.photos/1920/913);">
+<div class="page-content custom-img-background bkg-img1">
     <div class="container">
         <!-- .row start -->
         <div class="row">
             <!-- .col-md-3 start -->
             <div class="col-md-3 col-sm-3 hidden-xs pt-80">
-                <img src="https://picsum.photos/285/601" alt="Royal Plate - Restaurant & Catering HTML Template" />
+                <img src="<?= base_url("assets");?>/img/pics/spices-left.png" alt="Royal Plate - Restaurant & Catering HTML Template" />
             </div><!-- .col-md-3 end -->
 
             <!-- .col-md-6 start -->
@@ -86,14 +86,14 @@
 
             <!-- .col-md-3 start -->
             <div class="col-md-3 col-sm-3 hidden-xs pt-80">
-                <img src="https://picsum.photos/285/601" alt="Royal Plate - Restaurant & Catering HTML Template" />
+                <img src="<?= base_url("assets");?>/img/pics/spices-right.png" alt="Royal Plate - Restaurant & Catering HTML Template" />
             </div><!-- .col-md-3 end -->
         </div><!-- .row end -->
     </div><!-- .container end -->
 </div><!-- .page-content end -->
 
 <!-- .page-content start -->
-<div class="page-content custom-img-background dark bkg-img3 custom-col-padding mb-100" style="background-image: url(https://picsum.photos/1920/704);">
+<div class="page-content custom-img-background dark bkg-img3 custom-col-padding mb-100">
     <div class="container">
         <!-- .row start -->
         <div class="row">
@@ -466,11 +466,9 @@
 </div><!-- .page-content end -->
 
 <!-- .page-content start -->
-<div class="page-content">
+<!-- <div class="page-content">
     <div class="container-fluid padding-0">
-        <!-- .row start -->
         <div class="row mb-0">
-            <!-- .col-md-12 start -->
             <div class="col-md-12 centered padding-0 mb-0">
                 <article class="instagram-stream">
                     <div class="is-text">
@@ -482,7 +480,8 @@
                         </div>
                     </div>
                 </article>
-            </div><!-- .col-md-12 end -->
-        </div><!-- .row end -->
-    </div><!-- .container end -->
-</div><!-- .page-content end -->
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- .page-content end -->
