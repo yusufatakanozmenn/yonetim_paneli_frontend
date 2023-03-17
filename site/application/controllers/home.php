@@ -33,6 +33,7 @@ class Home extends CI_Controller {
 
     public function about(){
         $this->viewFolder = "about_v";
+        $this->load->model("pages_model");
         $viewData = new stdClass();
         $viewData->viewFolder=$this->viewFolder;
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
