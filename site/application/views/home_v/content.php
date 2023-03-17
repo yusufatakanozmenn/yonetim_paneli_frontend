@@ -2,7 +2,7 @@
 <div id="masterslider" class="master-slider ms-skin-default">
     <!-- slide start -->
     <div class="ms-slide">
-        <img src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01.jpg" alt="Royal Plate - Restaurant & Catering HTML Template" />
+        <img src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/1920/1080" alt="Royal Plate - Restaurant & Catering HTML Template" />
 
         <!-- slide heading layer -->
         <h3 class="ms-layer pi-caption02" style="top: 350px; left: 860px;" data-type="text" data-effect="bottom(40)" data-duration="2000" data-ease="easeOutExpo" data-delay="1000">
@@ -37,28 +37,28 @@
             Weekends: <span>08:00 A.M. - 02:00 P.M.</span>
         </p>
 
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-01.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 0; top: 100px;" data-type="image" data-effect="left(40)" data-duration="2500" data-ease="easeOutExpo" data-delay="0" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-02.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 300px; top: 250px;" data-type="image" data-delay="20" data-parallax="5" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-03.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 275px; top: 635px;" data-type="image" data-delay="100" data-parallax="5" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-04.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 295px; top: 816px;" data-type="image" data-delay="50" data-parallax="2" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-05.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 240px; top: 961px;" data-type="image" data-delay="150" data-parallax="15" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-06.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 10px; top: 100px;" data-type="image" data-effect="right(40)" data-duration="2500" data-ease="easeOutExpo" data-delay="0" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-07.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 287px; top: 174px;" data-type="image" data-delay="80" data-parallax="5" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-08.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 280px; top: 573px;" data-type="image" data-delay="10" data-parallax="1" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-09.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 288px; top: 143px;" data-type="image" data-delay="30" data-parallax="8" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-10.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 295px; top: 490px;" data-type="image" data-delay="150" data-parallax="15" />
-        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="<?php echo base_url("assets");?>/img/slider/slide01-11.png" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 0; bottom: 55px; left: 0; margin: 0 auto;" data-type="image" data-effect="bottom(40)" data-duration="2500" data-ease="easeOutExpo" data-delay="500" />
+        <!-- <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 0; top: 100px;" data-type="image" data-effect="left(40)" data-duration="2500" data-ease="easeOutExpo" data-delay="0" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 300px; top: 250px;" data-type="image" data-delay="20" data-parallax="5" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 275px; top: 635px;" data-type="image" data-delay="100" data-parallax="5" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 295px; top: 816px;" data-type="image" data-delay="50" data-parallax="2" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="left: 240px; top: 961px;" data-type="image" data-delay="150" data-parallax="15" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 10px; top: 100px;" data-type="image" data-effect="right(40)" data-duration="2500" data-ease="easeOutExpo" data-delay="0" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 287px; top: 174px;" data-type="image" data-delay="80" data-parallax="5" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 280px; top: 573px;" data-type="image" data-delay="10" data-parallax="1" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 288px; top: 143px;" data-type="image" data-delay="30" data-parallax="8" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 295px; top: 490px;" data-type="image" data-delay="150" data-parallax="15" />
+        <img class="ms-layer" src="<?php echo base_url("assets");?>/masterslider/style/blank.gif" data-src="https://picsum.photos/491/916" alt="Royal Plate - Restaurant & Catering HTML Template" style="right: 0; bottom: 55px; left: 0; margin: 0 auto;" data-type="image" data-effect="bottom(40)" data-duration="2500" data-ease="easeOutExpo" data-delay="500" /> -->
     </div><!-- slide end -->
 </div><!-- .master-slider end -->
 
 <!-- .page-content start -->
-<div class="page-content custom-img-background bkg-img1">
+<div class="page-content custom-img-background bkg-img1" style="background-image: url(https://picsum.photos/1920/913);">
     <div class="container">
         <!-- .row start -->
         <div class="row">
             <!-- .col-md-3 start -->
             <div class="col-md-3 col-sm-3 hidden-xs pt-80">
-                <img src="<?php echo base_url("assets");?>/img/pics/spices-left.png" alt="Royal Plate - Restaurant & Catering HTML Template" />
+                <img src="https://picsum.photos/285/601" alt="Royal Plate - Restaurant & Catering HTML Template" />
             </div><!-- .col-md-3 end -->
 
             <!-- .col-md-6 start -->
@@ -86,14 +86,14 @@
 
             <!-- .col-md-3 start -->
             <div class="col-md-3 col-sm-3 hidden-xs pt-80">
-                <img src="<?php echo base_url("assets");?>/img/pics/spices-right.png" alt="Royal Plate - Restaurant & Catering HTML Template" />
+                <img src="https://picsum.photos/285/601" alt="Royal Plate - Restaurant & Catering HTML Template" />
             </div><!-- .col-md-3 end -->
         </div><!-- .row end -->
     </div><!-- .container end -->
 </div><!-- .page-content end -->
 
 <!-- .page-content start -->
-<div class="page-content custom-img-background dark bkg-img3 custom-col-padding mb-100">
+<div class="page-content custom-img-background dark bkg-img3 custom-col-padding mb-100" style="background-image: url(https://picsum.photos/1920/704);">
     <div class="container">
         <!-- .row start -->
         <div class="row">
