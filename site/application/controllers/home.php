@@ -36,6 +36,12 @@ class Home extends CI_Controller {
         $this->viewFolder = "about_v";
         $this->load->model("pages_model");
         $viewData = new stdClass();
+        $viewData->upload_path = $this->config->item('upload_path');
+        $viewData->abouts = $this->pages_model->get(
+            array(
+                "durum" => 1
+            )
+        );
         $viewData->viewFolder=$this->viewFolder;
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }

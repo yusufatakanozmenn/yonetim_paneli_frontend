@@ -30,7 +30,7 @@ function get_about_cover_image($id) {
         )
     );   
     if (empty($image)) {
-      $image=$t->blog_model->get(
+      $image=$t->pages_model->get(
         array(
             "id" => $id,
         )
