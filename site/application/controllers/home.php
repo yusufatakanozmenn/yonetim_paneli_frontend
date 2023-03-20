@@ -53,20 +53,7 @@ class Home extends CI_Controller {
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
 
-    public function footer() {
-        $viewData = new stdClass();
-        $this->viewFolder = "includes";
-        $this->load->model("general_settings_model");
-        $viewData->upload_path = $this->config->item('upload_path');
-        $viewData->footers = $this->general_settings_model->get_all(
-            array(
-                "id" => 1               
-            ),  
-        );
-        $viewData->viewFolder=$this->viewFolder;
-
-        $this->load->view("{$viewData->viewFolder}/footer",$viewData);
-    }
+ 
 
   
 }
