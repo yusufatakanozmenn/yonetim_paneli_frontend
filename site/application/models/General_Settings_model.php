@@ -16,6 +16,10 @@ class General_Settings_model extends CI_Model
     {
         return $this->db->where($where)->get($this->tableName, $data);
     }
+    public function get_all($where = array())
+    {
+        return $this->db->where($where)->get($this->tableName)->result();
+    }
     public function update($where = array(), $data = array())
     {
         return $this->db->where($where)->update($this->tableName, $data);

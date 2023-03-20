@@ -39,3 +39,23 @@ function get_about_cover_image($id) {
 
     return !empty($image)?$image->resim:"";
 }
+
+function get_general_cover_image($id) {
+    $t = &get_instance();
+    $t->load->model("general_settings_model");
+    $image = $t->general_settings_model->get(
+        array(
+            "id" => $id,
+            "durum" => 1
+        )
+    );   
+    if (empty($image)) {
+      $image=$t->general_settings_model->get(
+        array(
+            "id" => $id,
+        )
+    );
+}   
+
+    return !empty($image)?$image->resim:"";
+}

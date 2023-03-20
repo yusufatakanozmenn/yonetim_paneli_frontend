@@ -19,7 +19,7 @@
 
                     <ul class="contact-info-list">
                         <li>
-                            22 Royal Street, Sundance Avenue, New York
+                        <?php echo $footers->firma_adres; ?>
                         </li>
                         <li>
                             <span>RESERVATIONS NUMBER:</span> +00 25 854 78521
