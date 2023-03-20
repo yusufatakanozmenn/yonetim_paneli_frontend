@@ -58,3 +58,5 @@ $route['reservations'] = "home/reservations";
 $route['blog'] = "home/blog";
 $route['about'] = "home/about";
 $route['menu'] = "home/menu";
+$route['contact'] = "home/contact";
+$route['foto_gallery'] = "home/foto_gallery";

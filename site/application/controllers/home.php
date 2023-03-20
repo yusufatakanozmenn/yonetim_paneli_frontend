@@ -52,6 +52,35 @@ class Home extends CI_Controller {
         $viewData->viewFolder=$this->viewFolder;
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
+    public function contact() {
+        $viewData = new stdClass();
+        $this->viewFolder = "contact_v";
+        $this->load->model("contact_settings_model");
+        $viewData->upload_path = $this->config->item('upload_path');
+        $viewData->contacts = $this->contact_settings_model->get(
+            array(
+                "id" => 1            
+            ), 
+        );
+        $viewData->viewFolder=$this->viewFolder;
+
+        $this->load->view("{$viewData->viewFolder}/index",$viewData);
+    }
+
+    public function foto_gallery() {
+        $viewData = new stdClass();
+        $this->viewFolder = "photo_gallery_v";
+        $this->load->model("photo_gallery_model");
+        $viewData->upload_path = $this->config->item('upload_path');
+        $viewData->contacts = $this->photo_gallery_model->get(
+            array(
+                "durum" => 1      
+            ), 
+        );
+        $viewData->viewFolder=$this->viewFolder;
+
+        $this->load->view("{$viewData->viewFolder}/index",$viewData);
+    }
 
  
 

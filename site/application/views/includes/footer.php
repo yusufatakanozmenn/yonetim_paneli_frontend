@@ -22,7 +22,7 @@
                         <?php echo $footers->firma_adres; ?>
                         </li>
                         <li>
-                            <span>RESERVATIONS NUMBER:</span> +00 25 854 78521
+                            <span>RESERVATIONS NUMBER:</span><?php echo $footers->firma_telefon; ?>
                         </li>
 
                         <li>

@@ -59,3 +59,21 @@ function get_general_cover_image($id) {
 
     return !empty($image)?$image->resim:"";
 }
+function get_contact_cover_image($id) {
+    $t = &get_instance();
+    $t->load->model("contact_settings_model");
+    $image = $t->contact_settings_model->get(
+        array(
+            "id" => $id,           
+        )
+    );   
+    if (empty($image)) {
+      $image=$t->contact_settings_model->get(
+        array(
+            "id" => $id,
+        )
+    );
+}   
+
+    return !empty($image)?$image->resim:"";
+}

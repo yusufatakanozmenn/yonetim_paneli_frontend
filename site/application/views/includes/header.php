@@ -13,14 +13,15 @@
                     <div class="row">
                         <div class="col-md-12">
                             <!-- .navbar start -->
-                            <nav class="navbar navbar-default nav-left">									
+                            <nav class="navbar navbar-default nav-left">
 
                                 <!-- .navbar-header start -->
                                 <div class="navbar-header">
                                     <!-- .logo start -->
                                     <div class="logo">
                                         <a href="<?= base_url();?>">
-                                            <img src="<?= base_url("assets");?>/img/logo.png" alt="Royal Plate Restaurant & Catering HTML Template">
+                                            <img src="<?= base_url("assets");?>/img/logo.png"
+                                                alt="Royal Plate Restaurant & Catering HTML Template">
                                         </a>
                                     </div><!-- logo end -->
                                 </div><!-- .navbar-header end -->
@@ -29,7 +30,7 @@
                                 <div class="collapse navbar-collapse">
                                     <ul class="nav navbar-nav pi-nav">
                                         <li class="current-menu-item dropdown">
-                                            <a href="<?= base_url();?>">Home</a> 
+                                            <a href="<?= base_url();?>">Home</a>
                                             <ul class="dropdown-menu">
                                             </ul><!-- .dropdown-menu end -->
                                         </li>
@@ -49,7 +50,7 @@
                                         </li>
 
                                         <li class="dropdown">
-                                            <a href="#">Menu</a> 
+                                            <a href="#">Menu</a>
                                             <!-- <ul class="dropdown-menu">
                                                 <li><a href="menu-01.html">Menu 1</a></li>
                                                 <li><a href="menu-02.html">Menu 2</a></li>
@@ -58,23 +59,27 @@
                                         </li>
 
                                         <li>
-                                            <a href="<?= base_url("reservations")?>">Reservations</a>                                          
+                                            <a href="<?= base_url("reservations")?>">Reservations</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a href="#">Catering</a> 
+                                            <a href="#">Catering</a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="catering.html">Catering page</a></li>
                                                 <li><a href="catering-single-page.html">Catering single page</a></li>
                                             </ul><!-- .dropdown-menu end -->
                                         </li>
-                                        <li>
-                                            <a href="gallery.html">Gallery</a>                                          
+                                        <li class="dropdown">
+                                            <a href="#">Galeri</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="<?= base_url("foto_gallery")?>">Foto Galeri</a></li>
+                                                <li><a href="video_gallery">Video Galeri</a></li>
+                                            </ul><!-- .dropdown-menu end -->
                                         </li>
                                         <li>
-                                            <a href="<?=base_url("blog")?>">Blog</a>                                          
+                                            <a href="<?=base_url("blog")?>">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>                                          
+                                            <a href="<?= base_url("contact")?>">İletişim</a>
                                         </li>
                                     </ul><!-- .nav.navbar-nav.pi-nav end -->
 
@@ -119,27 +124,32 @@
                                                 <a href="<?=base_url("catering")?>">Catering</a>
                                                 <ul class="dl-submenu">
                                                     <li><a href="catering.html">Catering page</a></li>
-                                                    <li><a href="catering-single-page.html">Catering single page</a></li>
+                                                    <li><a href="catering-single-page.html">Catering single page</a>
+                                                    </li>
                                                 </ul><!-- .dl-submenu end -->
                                             </li><!-- Catering li end -->
                                             <li>
-                                                <a href="gallery.html">Gallery</a>
-                                            </li><!-- Gallery li end -->
+                                                <a href="<?=base_url("foto_gallery")?>">Galeri</a>
+                                                <ul class="dl-submenu">
+                                                    <li><a href="<?=base_url("foto_gallery")?>">Foto Galeri</a></li>
+                                                    <li><a href="<?=base_url("video_gallery")?>">Video Galeri</a></li>
+                                                </ul><!-- .dl-submenu end -->
+                                            </li><!-- Catering li end -->
 
                                             <li>
                                                 <a href="<?=base_url("blog")?>">Blog</a>
                                             </li><!-- Blog li end -->
 
                                             <li>
-                                                <a href="contact.html">Contact</a>
+                                                <a href="<?= base_url("contact")?>">İletişim</a>
                                             </li><!-- Contact li end -->
 
                                         </ul><!-- .dl-menu end -->
                                     </div><!-- (Responsive menu) #dl-menu end -->
-                                </div><!-- .navbar.navbar-collapse end --> 
+                                </div><!-- .navbar.navbar-collapse end -->
                             </nav><!-- .navbar end -->
                         </div><!-- .col-md-12 end -->
-                    </div><!-- .row end -->            
+                    </div><!-- .row end -->
                 </div><!-- .main-nav end -->
             </div><!-- .container end -->
         </div><!-- .header-inner end -->
