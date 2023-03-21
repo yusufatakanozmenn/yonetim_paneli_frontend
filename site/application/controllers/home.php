@@ -3,6 +3,8 @@ class Home extends CI_Controller {
     public $viewFolder = "";
     public function __construct() {
         parent::__construct();
+        $this->load->helper("tools_helper");
+
     }
     public function index() {
         $this->viewFolder = "home_v";

@@ -77,3 +77,21 @@ function get_contact_cover_image($id) {
 
     return !empty($image)?$image->resim:"";
 }
+
+function get_settings(){
+
+    $t = &get_instance();
+
+//    $settings = $t->session->userdata("settings");
+
+//    if(empty($settings)){
+
+        $t->load->model("general_settings_model");
+
+        $settings = $t->general_settings_model->get();
+
+        $t->session->set_userdata("settings", $settings);
+//    }
+
+    return $settings;
+}
