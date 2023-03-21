@@ -35,7 +35,7 @@
                                             </ul><!-- .dropdown-menu end -->
                                         </li>
 
-                                        <li class="dropdown"><a href="<?=base_url("about")?>">About</a>
+                                        <li class="dropdown"><a href="<?=base_url("about")?>">Hakkımızda</a>
                                             <ul class="dropdown-menu">
                                                 <!-- <li class="dropdown dropdown-submenu">
                                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Submenu example</a>
@@ -72,7 +72,7 @@
                                             <a href="#">Galeri</a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="<?= base_url("foto_gallery")?>">Foto Galeri</a></li>
-                                                <li><a href="video_gallery">Video Galeri</a></li>
+                                                <li><a href="<?= base_url("video_gallery")?>">Video Galeri</a></li>
                                             </ul><!-- .dropdown-menu end -->
                                         </li>
                                         <li>

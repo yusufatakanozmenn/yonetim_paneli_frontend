@@ -60,3 +60,4 @@ $route['about'] = "home/about";
 $route['menu'] = "home/menu";
 $route['contact'] = "home/contact";
 $route['foto_gallery'] = "home/foto_gallery";
+$route['video_gallery'] = "home/video_gallery";

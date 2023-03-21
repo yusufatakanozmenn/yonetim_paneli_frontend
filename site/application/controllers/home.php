@@ -72,16 +72,31 @@ class Home extends CI_Controller {
         $this->viewFolder = "photo_gallery_v";
         $this->load->model("photo_gallery_model");
         $viewData->upload_path = $this->config->item('upload_path');
-        $viewData->contacts = $this->photo_gallery_model->get(
+        $viewData->photos = $this->photo_gallery_model->get_all(
             array(
-                "durum" => 1      
-            ), 
+                "durum" => 1               
+            ),  "sira ASC"
         );
         $viewData->viewFolder=$this->viewFolder;
+
 
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
 
+    public function video_gallery() {
+        $viewData = new stdClass();
+        $this->viewFolder = "video_gallery_v";
+        $this->load->model("video_model");
+        $viewData->upload_path = $this->config->item('upload_path');
+        $viewData->videos = $this->video_model->get_all(
+            array(
+                "durum" => 1               
+            ),  "sira ASC"
+        );
+      
+        $viewData->viewFolder=$this->viewFolder;
+        $this->load->view("{$viewData->viewFolder}/index",$viewData);
+    }
  
 
   

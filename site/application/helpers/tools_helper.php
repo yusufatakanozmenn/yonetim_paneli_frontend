@@ -77,3 +77,39 @@ function get_contact_cover_image($id) {
 
     return !empty($image)?$image->resim:"";
 }
+function get_photo_cover_image($id) {
+    $t = &get_instance();
+    $t->load->model("photo_gallery_model");
+    $image = $t->photo_gallery_model->get(
+        array(
+            "id" => $id,           
+        )
+    );   
+    if (empty($image)) {
+      $image=$t->photo_gallery_model->get(
+        array(
+            "id" => $id,
+        )
+    );
+}   
+
+    return !empty($image)?$image->resim:"";
+}
+function get_video_cover_image($id) {
+    $t = &get_instance();
+    $t->load->model("video_model");
+    $image = $t->video_model->get(
+        array(
+            "id" => $id,           
+        )
+    );   
+    if (empty($image)) {
+      $image=$t->video_model->get(
+        array(
+            "id" => $id,
+        )
+    );
+}   
+
+    return !empty($image)?$image->resim:"";
+}

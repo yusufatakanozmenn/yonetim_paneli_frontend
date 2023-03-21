@@ -42,13 +42,13 @@
        <div class="container-fluid">
            <div class="row">
                <ul id="galleryitems" class="isotope isotopeitems-full">
-                   <?php foreach ($photos as $photo) { ?>
+                   <?php foreach ($videos as $video) { ?>
                    <li class="col-xs-6 col-md-3 isotope-item outdoor">
                        <figure class="gallery-item-container">
                            <div class="gallery-img">
                            <?php 
 
-                            $image=get_photo_cover_image($photo->id);
+                            $image=get_video_cover_image($video->id);
                             $image = ($image) ? $upload_path."$viewFolder/$image":base_url("/img/pics/bkg-img8.jpg");
                             ?>
                                <img src="<?php echo $image;?>" alt="" />
