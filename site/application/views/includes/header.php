@@ -36,21 +36,11 @@
                                         </li>
 
                                         <li class="dropdown"><a href="<?=base_url("about")?>">Hakkımızda</a>
-                                            <ul class="dropdown-menu">
-                                                <!-- <li class="dropdown dropdown-submenu">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Submenu example</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Submenu item 1</a></li>
-                                                        <li><a href="#">Submenu item 2</a></li>
-                                                        <li><a href="#">Submenu item 3</a></li>
-                                                        <li><a href="#">Submenu item 4</a></li>
-                                                    </ul>
-                                                </li> -->
-                                            </ul><!-- .dropdown-menu end -->
+                                            
                                         </li>
 
                                         <li class="dropdown">
-                                            <a href="#">Menu</a>
+                                            <a href="<?=base_url("product")?>">Ürünler</a>
                                             <!-- <ul class="dropdown-menu">
                                                 <li><a href="menu-01.html">Menu 1</a></li>
                                                 <li><a href="menu-02.html">Menu 2</a></li>
@@ -99,22 +89,22 @@
 
                                             <li>
                                                 <a href="<?=base_url("about")?>">About</a>
-                                                <ul class="dl-submenu">
+                                                <!-- <ul class="dl-submenu">
                                                     <li><a href="<?=base_url("about")?>">About</a></li>
                                                     <li><a href="">Submenu item 1</a></li>
                                                     <li><a href="">Submenu item 2</a></li>
                                                     <li><a href="">Submenu item 3</a></li>
                                                     <li><a href="">Submenu item 4</a></li>
-                                                </ul><!-- .dl-submenu end -->
+                                                </ul> -->
                                             </li><!-- About li end -->
 
                                             <li>
-                                                <a href="<?=base_url("")?>">Menu</a>
-                                                <ul class="dl-submenu">
+                                                <a href="<?=base_url("product")?>">Ürünler</a>
+                                                <!-- <ul class="dl-submenu">
                                                     <li><a href="menu-01.html">Menu 1</a></li>
                                                     <li><a href="menu-02.html">Menu 2</a></li>
                                                     <li><a href="menu-details.html">Menu details example</a></li>
-                                                </ul><!-- .dl-submenu end -->
+                                                </ul> -->
                                             </li><!-- Menu li end -->
 
                                             <li>

@@ -97,6 +97,22 @@ class Home extends CI_Controller {
         $viewData->viewFolder=$this->viewFolder;
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
+
+    public function product() {
+        $viewData = new stdClass();
+        $this->viewFolder = "product_v";
+        $this->load->model("product_model");
+        $viewData->upload_path = $this->config->item('upload_path');
+        $viewData->products = $this->product_model->get_all(
+            array(
+                "durum" => 1               
+            ),  "sira ASC"
+        );
+        $viewData->viewFolder=$this->viewFolder;
+       
+
+        $this->load->view("{$viewData->viewFolder}/index",$viewData);
+    }
  
 
   
