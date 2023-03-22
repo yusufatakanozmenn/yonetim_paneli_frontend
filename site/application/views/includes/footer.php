@@ -1,3 +1,6 @@
+<?php 
+    $footers = $this->General_settings_model->get(array("id" => 1));
+?>
 <!-- #footer-wrapper start -->
 <div id="footer-wrapper">
     <!-- #footer start -->
@@ -22,7 +25,7 @@
                         <?php echo $footers->firma_adres; ?>
                         </li>
                         <li>
-                            <span>RESERVATIONS NUMBER:</span><?php echo $footers->firma_telefon; ?>
+                            <span>RESERVATIONS NUMBER: </span><?php echo $footers->firma_telefon; ?>
                         </li>
 
                         <li>
