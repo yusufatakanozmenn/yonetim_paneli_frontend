@@ -17,7 +17,7 @@
                 <!-- .col-md-4 start -->
                 <div class="col-md-4 centered">
                     <a href="<?= base_url();?>">
-                        <img src="<?= base_url("assets");?>/img/logo.png" alt="Royal Plate Restaurant & Catering HTML Template">
+                        <img src="<?= base_url("assets");?>/img/logo_acik.svg" alt="Royal Plate Restaurant & Catering HTML Template">
                     </a>
 
                     <ul class="contact-info-list">

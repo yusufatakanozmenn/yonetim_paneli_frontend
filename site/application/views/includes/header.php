@@ -20,7 +20,7 @@
                                     <!-- .logo start -->
                                     <div class="logo">
                                         <a href="<?= base_url();?>">
-                                            <img src="<?= base_url("assets");?>/img/logo.png"
+                                            <img src="<?= base_url("assets");?>/img/logo_acik.svg"
                                                 alt="Royal Plate Restaurant & Catering HTML Template">
                                         </a>
                                     </div><!-- logo end -->
