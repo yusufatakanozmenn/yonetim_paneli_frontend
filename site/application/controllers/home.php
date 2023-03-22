@@ -7,6 +7,13 @@ class Home extends CI_Controller {
     public function index() {
         $this->viewFolder = "home_v";
         $viewData = new stdClass();
+        $this->load->model("slider_model");
+        $slides = $this->slider_model->get_all(
+            array(
+                "durum" => 1
+            ), "rank ASC"
+        );
+        $viewData->slides = $slides;
         $viewData->viewFolder=$this->viewFolder;
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
@@ -108,8 +115,7 @@ class Home extends CI_Controller {
                 "durum" => 1               
             ),  "sira ASC"
         );
-        $viewData->viewFolder=$this->viewFolder;
-       
+        $viewData->viewFolder=$this->viewFolder;    
 
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }
@@ -117,4 +123,3 @@ class Home extends CI_Controller {
 
   
 }
-
