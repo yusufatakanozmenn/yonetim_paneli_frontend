@@ -39,16 +39,13 @@
                     </ul>
                 </div><!-- .col-md-4 end -->
 
-                <!-- .col-md-4 start -->
-                <div class="col-md-4">
-
-                </div><!-- .col-md-4 end-->
+             
             </div><!-- .row end -->
 
             <!-- .row start -->
             <div class="row mb-40">
                 <!-- .col-md-6 start -->
-                <div class="col-md-6">
+                <div class="col-md-12 ">
 
                     <!-- .social-links start -->
                     <ul class="social-links">
@@ -59,14 +56,8 @@
                     </ul><!-- .social-links end -->
                 </div><!-- .col-md-6 end -->
 
-                <!-- .col-md-6 start -->
-                <div class="col-md-6">
-                    <!-- .newsletter start -->
-                    <form class="newsletter">
-                        <input class="email" type="email" placeholder="Subscribe to our newsletter feed:">
-                        <input type="submit" class="submit" value="Submit">
-                    </form><!-- .newsletter end -->
-                </div><!-- .col-md-6 end -->
+               
+                
             </div><!-- .row end -->
         </div><!-- .container end -->
     </footer><!-- #footer end -->

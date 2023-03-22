@@ -22,7 +22,7 @@
            <div class="row gallery-filters">
                <div class="col-md-12 mb-20 centered triggerAnimation animated" data-animate='fadeIn'>
                    <div class="custom-heading style-1">
-                       <h3><span>Exquisite ambient</span></h3>
+                   
                        <h3>Restaurant gallery</h3>
 
                        <!-- .divider.style-1 start -->

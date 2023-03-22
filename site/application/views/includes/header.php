@@ -20,7 +20,7 @@
                                     <!-- .logo start -->
                                     <div class="logo">
                                         <a href="<?= base_url();?>">
-                                            <img src="<?= base_url("assets");?>/img/logo_acik.svg"
+                                            <img src="<?= base_url("assets");?>/img/logo.png"
                                                 alt="Royal Plate Restaurant & Catering HTML Template">
                                         </a>
                                     </div><!-- logo end -->
@@ -48,16 +48,16 @@
                                             </ul>.dropdown-menu end -->
                                         </li>
 
-                                        <li>
+                                        <!-- <li>
                                             <a href="<?= base_url("reservations")?>">Reservations</a>
-                                        </li>
-                                        <li class="dropdown">
+                                        </li> -->
+                                        <!-- <li class="dropdown">
                                             <a href="#">Catering</a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="catering.html">Catering page</a></li>
                                                 <li><a href="catering-single-page.html">Catering single page</a></li>
-                                            </ul><!-- .dropdown-menu end -->
-                                        </li>
+                                            </ul>
+                                        </li> -->
                                         <li class="dropdown">
                                             <a href="#">Galeri</a>
                                             <ul class="dropdown-menu">
@@ -75,20 +75,15 @@
 
                                     <!-- Responsive menu start -->
                                     <div id="dl-menu" class="dl-menuwrapper">
-                                        <button class="dl-trigger">Open Menu</button>
+                                        <button class="dl-trigger">Menü</button>
 
                                         <ul class="dl-menu">
                                             <li>
                                                 <a href="<?=base_url()?>">Home</a>
-                                                <ul class="dl-submenu">
-                                                    <li><a href="index.html">Home page</a></li>
-                                                    <li><a href="elements.html">Template elements</a></li>
-                                                    <li><a href="locations.html">Intro page</a></li>
-                                                </ul><!-- .dl-submenu end -->
                                             </li><!-- Home li end -->
 
                                             <li>
-                                                <a href="<?=base_url("about")?>">About</a>
+                                                <a href="<?=base_url("about")?>">Hakkımızda</a>
                                                 <!-- <ul class="dl-submenu">
                                                     <li><a href="<?=base_url("about")?>">About</a></li>
                                                     <li><a href="">Submenu item 1</a></li>
@@ -107,17 +102,17 @@
                                                 </ul> -->
                                             </li><!-- Menu li end -->
 
-                                            <li>
+                                            <!-- <li>
                                                 <a href="<?=base_url("reservations")?>">Reservations</a>
-                                            </li><!-- Reservations li end -->
-                                            <li>
+                                            </li> -->
+                                            <!-- <li>
                                                 <a href="<?=base_url("catering")?>">Catering</a>
                                                 <ul class="dl-submenu">
                                                     <li><a href="catering.html">Catering page</a></li>
                                                     <li><a href="catering-single-page.html">Catering single page</a>
                                                     </li>
-                                                </ul><!-- .dl-submenu end -->
-                                            </li><!-- Catering li end -->
+                                                </ul>.dl-submenu end 
+                                            </li>Catering li end -->
                                             <li>
                                                 <a href="<?=base_url("foto_gallery")?>">Galeri</a>
                                                 <ul class="dl-submenu">
