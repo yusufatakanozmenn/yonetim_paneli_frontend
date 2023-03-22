@@ -6,7 +6,7 @@
         <div class="row">
             <!-- .col-md-6 start -->
             <div class="col-md-6">
-                <p>© Royal Plate 2016. All rights reserved.</p>
+                <p>© Alva Grup 2023. All rights reserved.</p>
             </div><!-- .col-md-6 end -->
 
             <!-- .col-md-6 start -->
