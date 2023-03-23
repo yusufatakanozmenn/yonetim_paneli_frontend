@@ -12,14 +12,12 @@
             <!-- .col-md-6 start -->
             <div class="col-md-6">
                 <ul class="breadcrumb">
-                    <li><a href="<?= base_url();?>">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="menu-01.html">Menu</a></li>
-                    <li><a href="reservations.html">Reservations</a></li>
-                    <li><a href="catering.html">Catering</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="<?= base_url();?>">Anasayfa</a></li>
+                    <li><a href="<?=base_url("about")?>">Hakkımızda</a></li>
+                    <li><a href="<?=base_url("product")?>">Ürünler</a></li>
+                    <li><a href="<?= base_url("foto_gallery")?>">Galeri</a></li>
+                    <li><a href="<?=base_url("blog")?>">Blog</a></li>
+                    <li><a href="<?= base_url("contact")?>">İletişim</a></li>
                 </ul>
             </div><!-- .col-md-6 end -->
         </div><!-- .row end -->
