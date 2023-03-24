@@ -231,6 +231,7 @@ body {
 }
 img {
     max-width: 100%;
+    margin-left: 5px;
     height: auto;
     display: block;
 }
@@ -1404,6 +1405,7 @@ a.more-details .fa{
 
 .simple-gallery .gallery-item {
     padding: 0;
+    width: 25% !important;
 }
 .simple-gallery,
 .simple-gallery .gallery-item img {
