@@ -48,7 +48,7 @@
                 <ul class="simple-gallery row">
                 <?php foreach ($photos as $photo) { ?>
                     <!-- .col-md-6 start -->
-                    <li class="gallery-item col-md-6 triggerAnimation animated" data-animate='fadeIn'>
+                    <li class="gallery-item col-md-6 triggerAnimation animated" style="width: 25%;" data-animate='fadeIn'>
                          <?php 
 
                         $image=get_photo_cover_image($photo->id);

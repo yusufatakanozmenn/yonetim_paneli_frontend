@@ -1405,6 +1405,7 @@ a.more-details .fa{
 
 .simple-gallery .gallery-item {
     padding: 0;
+    width: 25% !important;
 }
 .simple-gallery,
 .simple-gallery .gallery-item img {
