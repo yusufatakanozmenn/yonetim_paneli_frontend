@@ -39,32 +39,34 @@
    </div><!-- .page-content end -->
 
    <div class="page-content">
-       <div class="container-fluid">
-           <div class="row">
-               <ul id="galleryitems" class="isotope isotopeitems-full">
-                   <?php foreach ($photos as $photo) { ?>
-                   <li class="col-xs-6 col-md-3 isotope-item outdoor">
-                       <figure class="gallery-item-container">
-                           <div class="gallery-img">
-                           <?php 
+    <div class="container">
+        <!-- .row start -->
+        <div class="row">
+            <!-- .col-md-6 start -->
+            <div class="col-md-12">
+                <!-- .simple-gallery.row start -->
+                <ul class="simple-gallery row">
+                <?php foreach ($photos as $photo) { ?>
+                    <!-- .col-md-6 start -->
+                    <li class="gallery-item col-md-6 triggerAnimation animated" data-animate='fadeIn'>
+                         <?php 
 
-                            $image=get_photo_cover_image($photo->id);
-                            $image = ($image) ? $upload_path."$viewFolder/$image":base_url("/img/pics/bkg-img8.jpg");
-                            ?>
-                               <img src="<?php echo $image;?>" alt="" />
-
-                               <div class="hover-mask-container">
-                                   <div class="hover-zoom">
-                                       <a href="<?php echo $image;?>" class="triggerZoom fa fa-search"></a>
-                                   </div><!-- .hover-zoom end -->
-                               </div><!-- .hover-mask-container end -->
-                           </div><!-- .gallery-img end -->
-
-                       </figure><!-- .gallery-item-container end -->
-                   </li><!-- .isotope-item end -->
-                   <?php } ?>
-               </ul><!-- #galleryitems.isotope end -->
-           </div><!-- .row end -->
-       </div><!-- .container-fluid end -->
-   </div><!-- .page-content end -->
+                        $image=get_photo_cover_image($photo->id);
+                        $image = ($image) ? $upload_path."$viewFolder/$image":base_url("/img/pics/bkg-img8.jpg");
+                        ?>
+                        <img src="<?php echo $image;?>" alt="" />
+                        <div class="hover-mask-container">
+                            <div class="hover-mask"></div>
+                            <div class="hover-zoom">
+                                <a href="<?php echo $image;?>" class="triggerZoom"></a>
+                            </div><!-- .hover-details end -->
+                        </div><!-- .hover-mask-container end -->
+                    </li><!-- .col-md-6 end -->
+                <?php } ?>
+                    <!-- .col-md-6 start -->                    
+                </ul>
+            </div><!-- .col-md-6 end -->
+        </div><!-- .row end -->
+    </div><!-- .container end -->
+</div><!-- .page-content end -->
    <!-- .page-content start -->
