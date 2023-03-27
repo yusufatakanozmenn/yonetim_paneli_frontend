@@ -1,9 +1,4 @@
-<?php
-$slides = $this->slider_model->get_all(array("durum" => 1), "rank ASC");
-// print_r(FCPATH."panel/uploads/slider_v/");
-// die();
-?>
-
+<?php $slides = $this->slider_model->get_all(array("durum" => 1), "rank ASC");?>
 <div id="masterslider" class="master-slider ms-skin-default">
     <?php foreach ($slides as $slider) { ?>
         <div class="ms-slide " data-fill-mode="fill">

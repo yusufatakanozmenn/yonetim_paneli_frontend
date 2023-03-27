@@ -9,6 +9,7 @@ class Home extends CI_Controller {
         $this->viewFolder = "home_v";
         $viewData = new stdClass();
         $this->load->model("slider_model");
+        $this->load->model("pages_model");
         $viewData->viewFolder=$this->viewFolder;
         $this->load->view("{$viewData->viewFolder}/index",$viewData);
     }

@@ -1,4 +1,5 @@
 <?php $this->load->view('home_v/slider'); ?>
+<?php $about = $this->pages_model->get(array("id"=>1));?>
 <!-- .page-content start -->
 <div class="page-content custom-img-background bkg-img1">
     <div class="container">
@@ -13,8 +14,8 @@
             <div class="col-md-6 col-sm-6 centered">
                 <div class="frame-box custom-img-background bkg-img2">
                     <div class="custom-heading style-1">
-                        <h3><span>Our story</span></h3>
-                        <h3>Love for food</h3>
+                        <!-- <h3><span>Hakkımızda</span></h3> -->
+                        <h3>Hakkımızda</h3>
 
                         <!-- .divider.style-1 start -->
                         <div class="divider style-1 center">
@@ -24,11 +25,7 @@
                         </div>
                     </div><!-- .custom-heading.style-1 end -->
 
-                    <p>Welcome. This is Royal plate. Elegant &
-                        sophisticated restaurant template. Royal plate offers different home page layouts with smart and unique design, showcasing beautifully
-                        designed elements every restaurant website should have. Smooth animations, fast loading and engaging user experience are just some of the features this template offers.
-                        <br />So, give it a try and dive into a world of royal restaurant websites.
-                    </p>
+                    <p><?=substr($about->aciklama,0,strpos($about->aciklama,' ',500))."..."?></p>
                 </div>
             </div><!-- .col-md-6 end -->
 
@@ -41,30 +38,27 @@
 </div><!-- .page-content end -->
 
 
-<!-- .page-content start -->
-<div class="page-content custom-img-background dark bkg-img3 custom-col-padding mb-100">
+<!-- krepli fofograf -->
+<!-- <div class="page-content custom-img-background dark bkg-img3 custom-col-padding mb-100">
     <div class="container">
-        <!-- .row start -->
         <div class="row">
-            <!-- .col-md-12 start -->
             <div class="col-md-12 centered">
                 <div class="custom-heading style-1 triggerAnimation animated" data-animate='fadeInUp'>
                     <h2><span>Exquisite cuisine</span></h2>
                     <h2>A FEAST FOR YOUR SENSES</h2>
 
-                    <!-- .divider.style-2 start -->
                     <div class="divider style-2 center">
                         <span class="hr-double left"></span>
                         <span class="divider-svg">
-                            <img src="<?php echo base_url("assets");?>/img/svg/heading-icon.svg" alt="Royal Plate Restaurant & Catering HTML Template">
+                            <img src="<?php // echo base_url("assets");?>/img/svg/heading-icon.svg" alt="Royal Plate Restaurant & Catering HTML Template">
                         </span>
                         <span class="hr-double right"></span>
                     </div>
-                </div><!-- .custom-heading.style-1 end -->
-            </div><!-- .col-md-12 end -->
-        </div><!-- .row end -->
-    </div><!-- .container end -->
-</div><!-- .page-content end -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
 
 <!-- .page-content start -->
 <div class="page-content">
